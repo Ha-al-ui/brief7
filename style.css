@@ -1,0 +1,72 @@
+html, body{
+	padding: 20px;;
+	color: white;
+	font-family: monospace;
+	background-image: url("llyfrgell.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul, li {
+	margin-left: 0; 
+	padding-left: 0;
+	list-style: none;
+}
+
+.card{
+	padding: 10px;
+	margin-top: 15px;
+	/* min-height: 100%; */
+	color: white;
+	background-color: rgba(32, 32, 32, 0.8);
+	font-family: sans-serif;
+}
+#form-container{
+	display: flex;
+	justify-content: center;
+}
+#form-toggle-btn{
+	margin: 25px 0px;
+	width: 100%;
+}
+
+
+#form-container{
+	margin-top: 20px;
+}
+
+.btn{
+	margin-top: 2px;
+}
+#formSubmit{
+	width: 100%;
+}
+.card-button{
+	width: 100%;
+}
+.form-check{
+	display: flex;
+}
+.form-checkbox{
+	margin-right: 30px;
+}
+h1{
+	margin: auto;
+	text-align: center;
+}
+#print{
+	padding: 10px;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.15s ease-in-out;
+	margin: 0% 0% 0% 120%;
+}
+@media only screen and (min-width: 600px) {
+	h1{
+		font-size: 55px;
+	}
+}
+h5{
+	font-size: 20px;
+}
